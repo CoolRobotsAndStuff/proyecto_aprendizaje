@@ -1,0 +1,401 @@
+lap_n,stint_n,compounds,pit_laps,team,rain,driver_name,grid_pos
+52.0,4.0,"['MEDIUM', 'HARD', 'SOFT']","[1.0, 21.0, 40.0]",Ferrari,0,SAI,1
+52.0,4.0,"['MEDIUM', 'SOFT']","[1.0, 40.0]",Red Bull Racing,0,PER,4
+52.0,4.0,"['MEDIUM', 'HARD', 'SOFT']","[1.0, 34.0, 40.0]",Mercedes,0,HAM,5
+52.0,3.0,"['MEDIUM', 'HARD']","[1.0, 26.0]",Ferrari,0,LEC,3
+52.0,4.0,"['MEDIUM', 'HARD', 'SOFT']","[1.0, 34.0, 40.0]",Alpine,0,ALO,7
+52.0,4.0,"['MEDIUM', 'HARD', 'SOFT']","[1.0, 35.0, 41.0]",McLaren,0,NOR,6
+52.0,5.0,"['SOFT', 'MEDIUM', 'HARD', 'SOFT']","[1.0, 2.0, 24.0, 40.0]",Red Bull Racing,0,VER,2
+52.0,4.0,"['MEDIUM', 'HARD', 'SOFT']","[1.0, 20.0, 40.0]",Haas F1 Team,0,MSC,19
+52.0,4.0,"['SOFT', 'MEDIUM']","[1.0, 7.0]",Aston Martin,0,VET,18
+52.0,3.0,"['SOFT', 'MEDIUM']","[1.0, 2.0]",Haas F1 Team,0,MAG,17
+52.0,4.0,"['MEDIUM', 'HARD', 'MEDIUM']","[1.0, 16.0, 41.0]",Aston Martin,0,STR,20
+52.0,4.0,"['SOFT', 'MEDIUM', 'SOFT']","[1.0, 20.0, 40.0]",Williams,0,LAT,10
+52.0,5.0,"['MEDIUM', 'HARD', 'SOFT']","[1.0, 21.0, 33.0]",McLaren,0,RIC,14
+52.0,4.0,"['MEDIUM', 'SOFT', 'HARD', 'SOFT']","[1.0, 2.0, 19.0, 39.0]",AlphaTauri,0,TSU,13
+38.0,3.0,"['MEDIUM', 'SOFT', 'HARD']","[1.0, 2.0, 23.0]",Alpine,0,OCO,15
+26.0,3.0,"['MEDIUM', 'SOFT', 'HARD']","[1.0, 2.0, 17.0]",AlphaTauri,0,GAS,11
+20.0,2.0,['MEDIUM'],[1.0],Alfa Romeo,0,BOT,12
+1.0,1.0,['HARD'],[1.0],Mercedes,0,RUS,8
+1.0,1.0,['MEDIUM'],[1.0],Alfa Romeo,0,ZHO,9
+1.0,1.0,['SOFT'],[1.0],Williams,0,ALB,16
+56.0,3.0,"['MEDIUM', 'HARD', 'MEDIUM']","[1.0, 14.0, 36.0]",Red Bull Racing,0,VER,2
+56.0,3.0,"['MEDIUM', 'HARD']","[1.0, 13.0]",Mercedes,0,HAM,3
+56.0,3.0,"['MEDIUM', 'HARD', 'MEDIUM']","[1.0, 19.0, 36.0]",Ferrari,0,LEC,12
+56.0,3.0,"['MEDIUM', 'HARD', 'MEDIUM']","[1.0, 15.0, 39.0]",Red Bull Racing,0,PER,9
+56.0,4.0,"['MEDIUM', 'HARD', 'SOFT']","[1.0, 14.0, 55.0]",Mercedes,0,RUS,4
+56.0,3.0,"['MEDIUM', 'HARD']","[1.0, 15.0]",McLaren,0,NOR,6
+56.0,3.0,"['HARD', 'MEDIUM', 'HARD']","[1.0, 19.0, 23.0]",Alpine,0,ALO,14
+56.0,3.0,"['MEDIUM', 'HARD']","[1.0, 42.0]",Aston Martin,0,VET,10
+56.0,2.0,"['HARD', 'MEDIUM']","[1.0, 19.0]",Haas F1 Team,0,MAG,13
+56.0,3.0,"['MEDIUM', 'HARD']","[1.0, 34.0]",AlphaTauri,0,TSU,19
+56.0,3.0,"['HARD', 'MEDIUM']","[1.0, 46.0]",Alpine,0,OCO,0
+56.0,3.0,"['MEDIUM', 'HARD']","[1.0, 10.0]",Alfa Romeo,0,ZHO,18
+56.0,3.0,"['MEDIUM', 'HARD']","[1.0, 19.0]",Williams,0,ALB,8
+56.0,3.0,"['MEDIUM', 'HARD']","[1.0, 12.0]",AlphaTauri,0,GAS,11
+56.0,3.0,"['HARD', 'MEDIUM', 'HARD']","[1.0, 19.0, 34.0]",Haas F1 Team,0,MSC,16
+56.0,3.0,"['MEDIUM', 'HARD']","[1.0, 11.0]",McLaren,0,RIC,15
+56.0,3.0,"['MEDIUM', 'HARD']","[1.0, 19.0]",Williams,0,LAT,17
+22.0,2.0,['MEDIUM'],[1.0],Aston Martin,0,STR,5
+17.0,2.0,"['MEDIUM', 'HARD']","[1.0, 11.0]",Alfa Romeo,0,BOT,7
+1.0,1.0,['MEDIUM'],[1.0],Ferrari,0,SAI,1
+57.0,4.0,"['SOFT', 'MEDIUM', 'SOFT']","[1.0, 32.0, 47.0]",Ferrari,0,LEC,1
+57.0,4.0,"['SOFT', 'MEDIUM', 'SOFT']","[1.0, 34.0, 45.0]",Ferrari,0,SAI,3
+57.0,4.0,"['SOFT', 'HARD', 'MEDIUM', 'SOFT']","[1.0, 12.0, 28.0, 45.0]",Mercedes,0,HAM,5
+57.0,4.0,"['SOFT', 'HARD', 'MEDIUM', 'SOFT']","[1.0, 16.0, 34.0, 46.0]",Mercedes,0,RUS,9
+57.0,4.0,"['SOFT', 'MEDIUM', 'SOFT']","[1.0, 35.0, 47.0]",Haas F1 Team,0,MAG,7
+57.0,4.0,"['SOFT', 'MEDIUM', 'SOFT']","[1.0, 15.0, 46.0]",Alfa Romeo,0,BOT,6
+57.0,4.0,"['SOFT', 'MEDIUM', 'HARD', 'SOFT']","[1.0, 15.0, 31.0, 44.0]",Alpine,0,OCO,11
+57.0,4.0,"['SOFT', 'MEDIUM', 'SOFT']","[1.0, 16.0, 30.0]",AlphaTauri,0,TSU,16
+57.0,4.0,"['SOFT', 'MEDIUM', 'HARD', 'SOFT']","[1.0, 12.0, 26.0, 43.0]",Alpine,0,ALO,8
+57.0,4.0,"['SOFT', 'MEDIUM', 'SOFT']","[1.0, 16.0, 46.0]",Alfa Romeo,0,ZHO,15
+57.0,3.0,"['SOFT', 'MEDIUM', 'SOFT']","[1.0, 13.0, 36.0]",Haas F1 Team,0,MSC,12
+57.0,4.0,"['SOFT', 'MEDIUM', 'SOFT']","[1.0, 39.0, 46.0]",Aston Martin,0,STR,19
+57.0,4.0,"['SOFT', 'MEDIUM', 'SOFT']","[1.0, 14.0, 47.0]",Williams,0,ALB,14
+57.0,4.0,"['MEDIUM', 'SOFT', 'HARD', 'SOFT']","[1.0, 18.0, 34.0, 45.0]",McLaren,0,RIC,18
+57.0,4.0,"['MEDIUM', 'HARD', 'SOFT']","[1.0, 25.0, 42.0]",McLaren,0,NOR,13
+57.0,4.0,"['SOFT', 'MEDIUM', 'SOFT']","[1.0, 33.0, 46.0]",Williams,0,LAT,20
+57.0,4.0,"['SOFT', 'MEDIUM', 'SOFT']","[1.0, 38.0, 45.0]",Aston Martin,0,HUL,17
+57.0,4.0,"['SOFT', 'MEDIUM', 'SOFT']","[1.0, 16.0, 34.0]",Red Bull Racing,0,PER,4
+54.0,4.0,"['SOFT', 'MEDIUM', 'SOFT']","[1.0, 31.0, 44.0]",Red Bull Racing,0,VER,2
+45.0,3.0,"['SOFT', 'MEDIUM', 'HARD']","[1.0, 15.0, 33.0]",AlphaTauri,0,GAS,10
+50.0,2.0,"['MEDIUM', 'HARD']","[1.0, 17.0]",Red Bull Racing,0,VER,4
+50.0,2.0,"['MEDIUM', 'HARD']","[1.0, 17.0]",Ferrari,0,LEC,2
+50.0,2.0,"['MEDIUM', 'HARD']","[1.0, 17.0]",Ferrari,0,SAI,3
+50.0,2.0,"['MEDIUM', 'HARD']","[1.0, 16.0]",Red Bull Racing,0,PER,1
+50.0,2.0,"['MEDIUM', 'HARD']","[1.0, 17.0]",Mercedes,0,RUS,6
+50.0,2.0,"['MEDIUM', 'HARD']","[1.0, 17.0]",Alpine,0,OCO,5
+50.0,2.0,"['MEDIUM', 'HARD']","[1.0, 17.0]",McLaren,0,NOR,11
+50.0,2.0,"['MEDIUM', 'HARD']","[1.0, 16.0]",AlphaTauri,0,GAS,9
+50.0,2.0,"['HARD', 'MEDIUM']","[1.0, 38.0]",Haas F1 Team,0,MAG,10
+50.0,2.0,"['HARD', 'MEDIUM']","[1.0, 41.0]",Mercedes,0,HAM,15
+50.0,3.0,"['MEDIUM', 'HARD']","[1.0, 17.0]",Alfa Romeo,0,ZHO,12
+50.0,2.0,"['HARD', 'MEDIUM']","[1.0, 38.0]",Aston Martin,0,HUL,17
+49.0,2.0,"['MEDIUM', 'HARD']","[1.0, 14.0]",Aston Martin,0,STR,13
+48.0,2.0,"['MEDIUM', 'HARD']","[1.0, 14.0]",Williams,0,ALB,16
+36.0,3.0,"['MEDIUM', 'HARD', 'MEDIUM']","[1.0, 17.0, 36.0]",Alfa Romeo,0,BOT,8
+36.0,2.0,"['MEDIUM', 'HARD']","[1.0, 17.0]",Alpine,0,ALO,7
+36.0,2.0,"['MEDIUM', 'HARD']","[1.0, 9.0]",McLaren,0,RIC,14
+15.0,1.0,['MEDIUM'],[1.0],Williams,0,LAT,18
+0,0,[],[],UNKNOWN,0,UNKNOWN,0
+0,0,[],[],UNKNOWN,0,UNKNOWN,0
+58.0,2.0,"['MEDIUM', 'HARD']","[1.0, 23.0]",Ferrari,0,LEC,1
+58.0,2.0,"['MEDIUM', 'HARD']","[1.0, 21.0]",Red Bull Racing,0,PER,3
+58.0,2.0,"['MEDIUM', 'HARD']","[1.0, 24.0]",Mercedes,0,RUS,6
+58.0,2.0,"['MEDIUM', 'HARD']","[1.0, 23.0]",Mercedes,0,HAM,5
+58.0,2.0,"['MEDIUM', 'HARD']","[1.0, 21.0]",McLaren,0,NOR,4
+58.0,2.0,"['MEDIUM', 'HARD']","[1.0, 22.0]",McLaren,0,RIC,7
+58.0,2.0,"['MEDIUM', 'HARD']","[1.0, 18.0]",Alpine,0,OCO,8
+58.0,2.0,"['MEDIUM', 'HARD']","[1.0, 23.0]",Alfa Romeo,0,BOT,12
+58.0,2.0,"['MEDIUM', 'HARD']","[1.0, 22.0]",AlphaTauri,0,GAS,11
+58.0,2.0,"['HARD', 'SOFT']","[1.0, 58.0]",Williams,0,ALB,20
+58.0,2.0,"['MEDIUM', 'HARD']","[1.0, 22.0]",Alfa Romeo,0,ZHO,14
+58.0,4.0,"['HARD', 'MEDIUM', 'HARD']","[1.0, 4.0, 5.0]",Aston Martin,0,STR,19
+57.0,2.0,"['MEDIUM', 'HARD']","[1.0, 15.0]",Haas F1 Team,0,MSC,15
+57.0,2.0,"['HARD', 'MEDIUM']","[1.0, 40.0]",Haas F1 Team,0,MAG,16
+57.0,2.0,"['MEDIUM', 'HARD']","[1.0, 19.0]",AlphaTauri,0,TSU,13
+57.0,3.0,"['MEDIUM', 'HARD']","[1.0, 14.0]",Williams,0,LAT,18
+57.0,3.0,"['HARD', 'MEDIUM']","[1.0, 40.0]",Alpine,0,ALO,10
+39.0,2.0,"['MEDIUM', 'HARD']","[1.0, 19.0]",Red Bull Racing,0,VER,2
+23.0,1.0,['HARD'],[1.0],Aston Martin,0,VET,17
+2.0,1.0,['HARD'],[1.0],Ferrari,0,SAI,9
+63.0,3.0,"['INTERMEDIATE', 'MEDIUM', 'SOFT']","[1.0, 20.0, 52.0]",Red Bull Racing,0,VER,1
+63.0,3.0,"['INTERMEDIATE', 'MEDIUM', 'SOFT']","[1.0, 19.0, 51.0]",Red Bull Racing,0,PER,3
+63.0,2.0,"['INTERMEDIATE', 'MEDIUM']","[1.0, 20.0]",McLaren,0,NOR,5
+63.0,2.0,"['INTERMEDIATE', 'MEDIUM']","[1.0, 19.0]",Mercedes,0,RUS,11
+63.0,2.0,"['INTERMEDIATE', 'MEDIUM']","[1.0, 19.0]",Alfa Romeo,0,BOT,7
+63.0,4.0,"['INTERMEDIATE', 'MEDIUM', 'SOFT']","[1.0, 20.0, 50.0]",Ferrari,0,LEC,2
+63.0,2.0,"['INTERMEDIATE', 'MEDIUM']","[1.0, 19.0]",AlphaTauri,0,TSU,12
+63.0,2.0,"['INTERMEDIATE', 'MEDIUM']","[1.0, 18.0]",Aston Martin,0,VET,13
+63.0,2.0,"['INTERMEDIATE', 'MEDIUM']","[1.0, 19.0]",Haas F1 Team,0,MAG,8
+62.0,2.0,"['INTERMEDIATE', 'MEDIUM']","[1.0, 19.0]",Aston Martin,0,STR,15
+62.0,2.0,"['INTERMEDIATE', 'MEDIUM']","[1.0, 18.0]",Williams,0,ALB,18
+62.0,2.0,"['INTERMEDIATE', 'MEDIUM']","[1.0, 18.0]",AlphaTauri,0,GAS,17
+62.0,2.0,"['INTERMEDIATE', 'MEDIUM']","[1.0, 19.0]",Mercedes,0,HAM,14
+62.0,2.0,"['INTERMEDIATE', 'MEDIUM']","[1.0, 19.0]",Alpine,0,OCO,16
+62.0,2.0,"['INTERMEDIATE', 'MEDIUM']","[1.0, 19.0]",Alfa Romeo,0,ZHO,0
+62.0,2.0,"['INTERMEDIATE', 'MEDIUM']","[1.0, 19.0]",Williams,0,LAT,19
+62.0,3.0,"['INTERMEDIATE', 'MEDIUM', 'SOFT']","[1.0, 19.0, 53.0]",Haas F1 Team,0,MSC,10
+62.0,4.0,"['INTERMEDIATE', 'MEDIUM', 'HARD']","[1.0, 17.0, 31.0]",McLaren,0,RIC,6
+6.0,1.0,['INTERMEDIATE'],[1.0],Alpine,0,ALO,9
+1.0,1.0,['INTERMEDIATE'],[1.0],Ferrari,0,SAI,4
+57.0,2.0,"['MEDIUM', 'HARD']","[1.0, 27.0]",Red Bull Racing,1,VER,3
+57.0,2.0,"['MEDIUM', 'HARD']","[1.0, 25.0]",Ferrari,1,LEC,1
+57.0,2.0,"['MEDIUM', 'HARD']","[1.0, 28.0]",Ferrari,1,SAI,2
+57.0,3.0,"['MEDIUM', 'HARD', 'MEDIUM']","[1.0, 28.0, 42.0]",Red Bull Racing,1,PER,4
+57.0,2.0,"['HARD', 'MEDIUM']","[1.0, 41.0]",Mercedes,1,RUS,12
+57.0,2.0,"['MEDIUM', 'HARD']","[1.0, 23.0]",Mercedes,1,HAM,6
+57.0,2.0,"['MEDIUM', 'HARD']","[1.0, 27.0]",Alfa Romeo,1,BOT,5
+57.0,2.0,"['HARD', 'SOFT']","[1.0, 42.0]",Alpine,1,OCO,20
+57.0,2.0,"['MEDIUM', 'HARD']","[1.0, 17.0]",Williams,1,ALB,18
+57.0,2.0,"['HARD', 'MEDIUM']","[1.0, 41.0]",Aston Martin,1,STR,0
+57.0,2.0,"['MEDIUM', 'HARD']","[1.0, 16.0]",Alpine,1,ALO,11
+57.0,3.0,"['MEDIUM', 'HARD', 'SOFT']","[1.0, 12.0, 42.0]",AlphaTauri,1,TSU,9
+57.0,3.0,"['MEDIUM', 'HARD', 'SOFT']","[1.0, 31.0, 42.0]",McLaren,1,RIC,14
+57.0,2.0,"['HARD', 'MEDIUM']","[1.0, 35.0]",Williams,1,LAT,19
+57.0,3.0,"['MEDIUM', 'HARD', 'MEDIUM']","[1.0, 15.0, 55.0]",Haas F1 Team,1,MSC,15
+57.0,3.0,"['MEDIUM', 'HARD', 'MEDIUM']","[1.0, 13.0, 43.0]",Haas F1 Team,1,MAG,16
+54.0,2.0,"['HARD', 'MEDIUM']","[1.0, 42.0]",Aston Martin,1,VET,0
+45.0,3.0,"['MEDIUM', 'HARD', 'SOFT']","[1.0, 17.0, 41.0]",AlphaTauri,1,GAS,7
+40.0,2.0,"['MEDIUM', 'HARD']","[1.0, 19.0]",McLaren,1,NOR,8
+6.0,1.0,['MEDIUM'],[1.0],Alfa Romeo,1,ZHO,17
+66.0,4.0,"['SOFT', 'MEDIUM', 'SOFT', 'MEDIUM']","[1.0, 14.0, 29.0, 45.0]",Red Bull Racing,0,VER,2
+66.0,4.0,"['SOFT', 'MEDIUM', 'SOFT']","[1.0, 18.0, 54.0]",Red Bull Racing,0,PER,5
+66.0,4.0,"['SOFT', 'MEDIUM', 'SOFT']","[1.0, 14.0, 52.0]",Mercedes,0,RUS,4
+66.0,4.0,"['SOFT', 'MEDIUM', 'SOFT']","[1.0, 11.0, 46.0]",Ferrari,0,SAI,3
+66.0,4.0,"['MEDIUM', 'SOFT', 'MEDIUM', 'SOFT']","[1.0, 2.0, 23.0, 49.0]",Mercedes,0,HAM,6
+66.0,3.0,"['SOFT', 'MEDIUM']","[1.0, 15.0]",Alfa Romeo,0,BOT,7
+66.0,4.0,"['SOFT', 'MEDIUM', 'SOFT']","[1.0, 14.0, 36.0]",Alpine,0,OCO,12
+66.0,4.0,"['SOFT', 'MEDIUM', 'SOFT']","[1.0, 13.0, 34.0]",McLaren,0,NOR,11
+65.0,4.0,"['SOFT', 'MEDIUM', 'SOFT']","[1.0, 11.0, 32.0]",Alpine,0,ALO,20
+65.0,4.0,"['SOFT', 'MEDIUM', 'SOFT']","[1.0, 12.0, 33.0]",AlphaTauri,0,TSU,13
+65.0,3.0,"['SOFT', 'MEDIUM']","[1.0, 43.0]",Aston Martin,0,VET,16
+65.0,4.0,"['SOFT', 'MEDIUM', 'SOFT']","[1.0, 32.0, 49.0]",McLaren,0,RIC,9
+65.0,4.0,"['SOFT', 'MEDIUM', 'SOFT']","[1.0, 11.0, 30.0]",AlphaTauri,0,GAS,14
+65.0,3.0,"['SOFT', 'MEDIUM']","[1.0, 31.0]",Haas F1 Team,0,MSC,10
+65.0,4.0,"['SOFT', 'MEDIUM', 'SOFT']","[1.0, 28.0, 47.0]",Aston Martin,0,STR,17
+64.0,4.0,"['SOFT', 'MEDIUM', 'SOFT']","[1.0, 13.0, 27.0]",Williams,0,LAT,19
+64.0,3.0,"['SOFT', 'MEDIUM', 'HARD']","[1.0, 2.0, 30.0]",Haas F1 Team,0,MAG,8
+64.0,5.0,"['SOFT', 'MEDIUM', 'SOFT', 'MEDIUM', 'SOFT']","[1.0, 12.0, 26.0, 46.0, 55.0]",Williams,0,ALB,18
+28.0,2.0,"['SOFT', 'MEDIUM']","[1.0, 11.0]",Alfa Romeo,0,ZHO,15
+27.0,2.0,"['SOFT', 'MEDIUM']","[1.0, 22.0]",Ferrari,0,LEC,1
+64.0,4.0,"['WET', 'INTERMEDIATE', 'HARD', 'MEDIUM']","[1.0, 17.0, 23.0, 31.0]",Red Bull Racing,0,PER,3
+64.0,3.0,"['WET', 'HARD']","[1.0, 22.0]",Ferrari,0,SAI,2
+64.0,4.0,"['WET', 'INTERMEDIATE', 'HARD', 'MEDIUM']","[1.0, 19.0, 23.0, 31.0]",Red Bull Racing,0,VER,4
+64.0,4.0,"['WET', 'INTERMEDIATE', 'HARD']","[1.0, 19.0, 22.0]",Ferrari,0,LEC,1
+64.0,3.0,"['WET', 'HARD', 'MEDIUM']","[1.0, 22.0, 31.0]",Mercedes,0,RUS,6
+64.0,5.0,"['WET', 'INTERMEDIATE', 'HARD', 'MEDIUM']","[1.0, 18.0, 23.0, 52.0]",McLaren,0,NOR,5
+64.0,3.0,"['WET', 'HARD', 'MEDIUM']","[1.0, 22.0, 31.0]",Alpine,0,ALO,7
+64.0,4.0,"['WET', 'INTERMEDIATE', 'HARD', 'MEDIUM']","[1.0, 16.0, 23.0, 31.0]",Mercedes,0,HAM,8
+64.0,3.0,"['WET', 'HARD']","[1.0, 21.0]",Alfa Romeo,0,BOT,12
+64.0,4.0,"['WET', 'INTERMEDIATE', 'HARD']","[1.0, 7.0, 24.0]",Aston Martin,0,VET,9
+64.0,4.0,"['INTERMEDIATE', 'HARD']","[1.0, 23.0]",AlphaTauri,0,GAS,17
+64.0,3.0,"['WET', 'HARD', 'MEDIUM']","[1.0, 22.0, 31.0]",Alpine,0,OCO,10
+64.0,3.0,"['WET', 'HARD']","[1.0, 20.0]",McLaren,0,RIC,14
+64.0,5.0,"['WET', 'INTERMEDIATE', 'HARD', 'None']","[1.0, 3.0, 25.0, 30.0]",Aston Martin,0,STR,18
+63.0,4.0,"['WET', 'INTERMEDIATE', 'HARD', 'MEDIUM']","[1.0, 2.0, 3.0, 23.0]",Williams,0,LAT,19
+63.0,3.0,"['WET', 'HARD', 'MEDIUM']","[1.0, 20.0, 30.0]",Alfa Romeo,0,ZHO,20
+63.0,5.0,"['WET', 'INTERMEDIATE', 'HARD', 'MEDIUM', 'SOFT']","[1.0, 7.0, 22.0, 30.0, 57.0]",AlphaTauri,0,TSU,11
+49.0,4.0,"['WET', 'HARD', 'MEDIUM']","[1.0, 19.0, 23.0]",Williams,0,ALB,16
+25.0,3.0,"['WET', 'INTERMEDIATE', 'HARD']","[1.0, 5.0, 18.0]",Haas F1 Team,0,MSC,15
+20.0,1.0,['WET'],[1.0],Haas F1 Team,0,MAG,13
+51.0,3.0,"['MEDIUM', 'HARD']","[1.0, 19.0]",Red Bull Racing,0,VER,3
+51.0,3.0,"['MEDIUM', 'HARD']","[1.0, 17.0]",Red Bull Racing,0,PER,2
+51.0,3.0,"['MEDIUM', 'HARD']","[1.0, 10.0]",Mercedes,0,RUS,5
+51.0,3.0,"['MEDIUM', 'HARD']","[1.0, 10.0]",Mercedes,0,HAM,7
+51.0,2.0,"['MEDIUM', 'HARD']","[1.0, 10.0]",AlphaTauri,0,GAS,6
+51.0,2.0,"['MEDIUM', 'HARD']","[1.0, 10.0]",Aston Martin,0,VET,9
+51.0,2.0,"['MEDIUM', 'HARD']","[1.0, 19.0]",Alpine,0,ALO,10
+51.0,2.0,"['HARD', 'MEDIUM']","[1.0, 34.0]",McLaren,0,RIC,12
+51.0,2.0,"['MEDIUM', 'HARD']","[1.0, 21.0]",McLaren,0,NOR,11
+51.0,2.0,"['HARD', 'MEDIUM']","[1.0, 34.0]",Alpine,0,OCO,13
+50.0,2.0,"['HARD', 'MEDIUM']","[1.0, 34.0]",Alfa Romeo,0,BOT,15
+50.0,3.0,"['MEDIUM', 'HARD']","[1.0, 10.0]",Williams,0,ALB,17
+50.0,3.0,"['MEDIUM', 'HARD', 'SOFT']","[1.0, 10.0, 39.0]",AlphaTauri,0,TSU,8
+50.0,3.0,"['HARD', 'MEDIUM', 'HARD']","[1.0, 10.0, 24.0]",Haas F1 Team,0,MSC,20
+50.0,3.0,"['MEDIUM', 'HARD']","[1.0, 18.0]",Williams,0,LAT,18
+46.0,2.0,"['HARD', 'MEDIUM']","[1.0, 31.0]",Aston Martin,0,STR,19
+32.0,2.0,"['MEDIUM', 'HARD']","[1.0, 10.0]",Haas F1 Team,0,MAG,16
+23.0,2.0,"['MEDIUM', 'HARD']","[1.0, 10.0]",Alfa Romeo,0,ZHO,14
+21.0,2.0,"['MEDIUM', 'HARD']","[1.0, 10.0]",Ferrari,0,LEC,1
+9.0,1.0,['MEDIUM'],[1.0],Ferrari,0,SAI,4
+70.0,3.0,"['MEDIUM', 'HARD']","[1.0, 10.0]",Red Bull Racing,0,VER,1
+70.0,3.0,"['MEDIUM', 'HARD']","[1.0, 21.0]",Ferrari,0,SAI,3
+70.0,3.0,"['MEDIUM', 'HARD']","[1.0, 10.0]",Mercedes,0,HAM,4
+70.0,3.0,"['MEDIUM', 'HARD']","[1.0, 20.0]",Mercedes,0,RUS,8
+70.0,2.0,"['HARD', 'MEDIUM']","[1.0, 42.0]",Ferrari,0,LEC,19
+70.0,3.0,"['MEDIUM', 'HARD', 'MEDIUM']","[1.0, 20.0, 50.0]",Alpine,0,OCO,7
+70.0,2.0,"['HARD', 'MEDIUM']","[1.0, 50.0]",Alfa Romeo,0,BOT,11
+70.0,3.0,"['MEDIUM', 'HARD']","[1.0, 20.0]",Alfa Romeo,0,ZHO,10
+70.0,3.0,"['MEDIUM', 'HARD', 'MEDIUM']","[1.0, 29.0, 50.0]",Alpine,0,ALO,2
+70.0,2.0,"['HARD', 'MEDIUM']","[1.0, 48.0]",Aston Martin,0,STR,17
+70.0,3.0,"['MEDIUM', 'HARD']","[1.0, 20.0]",McLaren,0,RIC,9
+70.0,3.0,"['MEDIUM', 'HARD']","[1.0, 6.0]",Aston Martin,0,VET,16
+70.0,3.0,"['MEDIUM', 'HARD']","[1.0, 19.0]",Williams,0,ALB,12
+70.0,3.0,"['MEDIUM', 'HARD']","[1.0, 6.0]",AlphaTauri,0,GAS,15
+70.0,3.0,"['HARD', 'MEDIUM']","[1.0, 43.0]",McLaren,0,NOR,14
+70.0,3.0,"['MEDIUM', 'HARD']","[1.0, 10.0]",Williams,0,LAT,18
+70.0,2.0,"['MEDIUM', 'HARD']","[1.0, 8.0]",Haas F1 Team,0,MAG,5
+47.0,2.0,"['MEDIUM', 'HARD']","[1.0, 10.0]",AlphaTauri,0,TSU,20
+19.0,1.0,['MEDIUM'],[1.0],Haas F1 Team,0,MSC,6
+8.0,1.0,['HARD'],[1.0],Red Bull Racing,0,PER,13
+52.0,4.0,"['MEDIUM', 'HARD', 'SOFT']","[1.0, 21.0, 40.0]",Ferrari,0,SAI,1
+52.0,4.0,"['MEDIUM', 'SOFT']","[1.0, 40.0]",Red Bull Racing,0,PER,4
+52.0,4.0,"['MEDIUM', 'HARD', 'SOFT']","[1.0, 34.0, 40.0]",Mercedes,0,HAM,5
+52.0,3.0,"['MEDIUM', 'HARD']","[1.0, 26.0]",Ferrari,0,LEC,3
+52.0,4.0,"['MEDIUM', 'HARD', 'SOFT']","[1.0, 34.0, 40.0]",Alpine,0,ALO,7
+52.0,4.0,"['MEDIUM', 'HARD', 'SOFT']","[1.0, 35.0, 41.0]",McLaren,0,NOR,6
+52.0,5.0,"['SOFT', 'MEDIUM', 'HARD', 'SOFT']","[1.0, 2.0, 24.0, 40.0]",Red Bull Racing,0,VER,2
+52.0,4.0,"['MEDIUM', 'HARD', 'SOFT']","[1.0, 20.0, 40.0]",Haas F1 Team,0,MSC,19
+52.0,4.0,"['SOFT', 'MEDIUM']","[1.0, 7.0]",Aston Martin,0,VET,18
+52.0,3.0,"['SOFT', 'MEDIUM']","[1.0, 2.0]",Haas F1 Team,0,MAG,17
+52.0,4.0,"['MEDIUM', 'HARD', 'MEDIUM']","[1.0, 16.0, 41.0]",Aston Martin,0,STR,20
+52.0,4.0,"['SOFT', 'MEDIUM', 'SOFT']","[1.0, 20.0, 40.0]",Williams,0,LAT,10
+52.0,5.0,"['MEDIUM', 'HARD', 'SOFT']","[1.0, 21.0, 33.0]",McLaren,0,RIC,14
+52.0,4.0,"['MEDIUM', 'SOFT', 'HARD', 'SOFT']","[1.0, 2.0, 19.0, 39.0]",AlphaTauri,0,TSU,13
+38.0,3.0,"['MEDIUM', 'SOFT', 'HARD']","[1.0, 2.0, 23.0]",Alpine,0,OCO,15
+26.0,3.0,"['MEDIUM', 'SOFT', 'HARD']","[1.0, 2.0, 17.0]",AlphaTauri,0,GAS,11
+20.0,2.0,['MEDIUM'],[1.0],Alfa Romeo,0,BOT,12
+1.0,1.0,['HARD'],[1.0],Mercedes,0,RUS,8
+1.0,1.0,['MEDIUM'],[1.0],Alfa Romeo,0,ZHO,9
+1.0,1.0,['SOFT'],[1.0],Williams,0,ALB,16
+71.0,4.0,"['MEDIUM', 'HARD', 'MEDIUM']","[1.0, 27.0, 59.0]",Ferrari,0,LEC,2
+71.0,4.0,"['MEDIUM', 'HARD', 'MEDIUM']","[1.0, 14.0, 59.0]",Red Bull Racing,0,VER,1
+71.0,3.0,"['MEDIUM', 'HARD', 'MEDIUM']","[1.0, 29.0, 52.0]",Mercedes,0,HAM,8
+71.0,3.0,"['MEDIUM', 'HARD', 'None']","[1.0, 12.0, 41.0]",Mercedes,0,RUS,4
+71.0,3.0,"['MEDIUM', 'HARD', 'None']","[1.0, 17.0, 45.0]",Alpine,0,OCO,6
+70.0,3.0,"['MEDIUM', 'HARD', 'None']","[1.0, 17.0, 44.0]",Haas F1 Team,0,MSC,9
+70.0,3.0,"['MEDIUM', 'HARD', 'None']","[1.0, 15.0, 44.0]",McLaren,0,NOR,10
+70.0,3.0,"['MEDIUM', 'HARD', 'None']","[1.0, 16.0, 42.0]",Haas F1 Team,0,MAG,7
+70.0,3.0,"['MEDIUM', 'HARD', 'None']","[1.0, 13.0, 45.0]",McLaren,0,RIC,11
+70.0,4.0,"['HARD', 'MEDIUM']","[1.0, 58.0]",Alpine,0,ALO,19
+70.0,3.0,"['MEDIUM', 'HARD', 'None']","[1.0, 7.0, 41.0]",Alfa Romeo,0,BOT,0
+70.0,3.0,"['MEDIUM', 'HARD', 'None']","[1.0, 12.0, 43.0]",Williams,0,ALB,15
+70.0,3.0,"['MEDIUM', 'HARD', 'MEDIUM']","[1.0, 30.0, 49.0]",Aston Martin,0,STR,12
+70.0,3.0,"['HARD', 'MEDIUM']","[1.0, 47.0]",Alfa Romeo,0,ZHO,13
+70.0,3.0,"['MEDIUM', 'HARD', 'None']","[1.0, 13.0, 41.0]",AlphaTauri,0,GAS,14
+70.0,3.0,"['HARD', 'MEDIUM', 'HARD']","[1.0, 27.0, 47.0]",AlphaTauri,0,TSU,16
+70.0,3.0,"['HARD', 'MEDIUM', 'None']","[1.0, 21.0, 46.0]",Aston Martin,0,VET,18
+57.0,3.0,"['MEDIUM', 'HARD', 'None']","[1.0, 28.0, 52.0]",Ferrari,0,SAI,3
+48.0,3.0,"['MEDIUM', 'HARD', 'None']","[1.0, 13.0, 36.0]",Williams,0,LAT,17
+24.0,2.0,"['MEDIUM', 'HARD']","[1.0, 2.0]",Red Bull Racing,0,PER,5
+53.0,2.0,"['MEDIUM', 'HARD']","[1.0, 17.0]",Red Bull Racing,0,VER,2
+53.0,2.0,"['MEDIUM', 'HARD']","[1.0, 19.0]",Mercedes,0,HAM,4
+53.0,2.0,"['MEDIUM', 'HARD']","[1.0, 19.0]",Mercedes,0,RUS,6
+53.0,2.0,"['MEDIUM', 'HARD']","[1.0, 19.0]",Red Bull Racing,0,PER,3
+53.0,3.0,"['HARD', 'MEDIUM']","[1.0, 19.0]",Ferrari,0,SAI,19
+53.0,2.0,"['MEDIUM', 'HARD']","[1.0, 19.0]",Alpine,0,ALO,7
+53.0,2.0,"['MEDIUM', 'HARD']","[1.0, 19.0]",McLaren,0,NOR,5
+53.0,2.0,"['MEDIUM', 'HARD']","[1.0, 19.0]",Alpine,0,OCO,10
+53.0,2.0,"['MEDIUM', 'HARD']","[1.0, 19.0]",McLaren,0,RIC,9
+53.0,2.0,"['MEDIUM', 'HARD']","[1.0, 19.0]",Aston Martin,0,STR,15
+53.0,2.0,"['MEDIUM', 'HARD']","[1.0, 20.0]",Aston Martin,0,VET,12
+53.0,2.0,"['HARD', 'MEDIUM']","[1.0, 19.0]",AlphaTauri,0,GAS,14
+53.0,2.0,"['MEDIUM', 'HARD']","[1.0, 19.0]",Williams,0,ALB,13
+53.0,3.0,"['HARD', 'MEDIUM']","[1.0, 37.0]",Alfa Romeo,0,BOT,11
+53.0,3.0,"['MEDIUM', 'HARD']","[1.0, 10.0]",Haas F1 Team,0,MSC,17
+48.0,3.0,"['MEDIUM', 'HARD']","[1.0, 10.0]",Alfa Romeo,0,ZHO,16
+41.0,3.0,"['MEDIUM', 'HARD', 'MEDIUM']","[1.0, 20.0, 39.0]",Williams,0,LAT,18
+38.0,3.0,"['MEDIUM', 'HARD']","[1.0, 9.0]",Haas F1 Team,0,MAG,20
+18.0,1.0,['MEDIUM'],[1.0],Ferrari,0,LEC,1
+18.0,2.0,"['MEDIUM', 'HARD']","[1.0, 12.0]",AlphaTauri,0,TSU,8
+70.0,3.0,"['SOFT', 'MEDIUM']","[1.0, 17.0]",Red Bull Racing,0,VER,10
+70.0,3.0,"['MEDIUM', 'SOFT']","[1.0, 52.0]",Mercedes,0,HAM,7
+70.0,3.0,"['SOFT', 'MEDIUM']","[1.0, 17.0]",Mercedes,0,RUS,1
+70.0,3.0,"['MEDIUM', 'SOFT']","[1.0, 48.0]",Ferrari,0,SAI,2
+70.0,3.0,"['SOFT', 'MEDIUM']","[1.0, 19.0]",Red Bull Racing,0,PER,11
+70.0,4.0,"['MEDIUM', 'HARD', 'SOFT']","[1.0, 40.0, 55.0]",Ferrari,0,LEC,3
+70.0,3.0,"['SOFT', 'MEDIUM', 'HARD']","[1.0, 15.0, 43.0]",McLaren,0,NOR,4
+69.0,2.0,"['MEDIUM', 'HARD']","[1.0, 22.0]",Alpine,0,ALO,6
+69.0,2.0,"['MEDIUM', 'HARD']","[1.0, 24.0]",Alpine,0,OCO,5
+69.0,3.0,"['SOFT', 'MEDIUM']","[1.0, 16.0]",Aston Martin,0,VET,18
+69.0,3.0,"['SOFT', 'MEDIUM', 'SOFT']","[1.0, 15.0, 47.0]",Aston Martin,0,STR,14
+69.0,3.0,"['SOFT', 'MEDIUM', 'SOFT']","[1.0, 17.0, 47.0]",AlphaTauri,0,GAS,0
+69.0,3.0,"['MEDIUM', 'HARD', 'SOFT']","[1.0, 28.0, 52.0]",Alfa Romeo,0,ZHO,12
+69.0,3.0,"['MEDIUM', 'HARD', 'MEDIUM']","[1.0, 22.0, 42.0]",Haas F1 Team,0,MSC,15
+69.0,3.0,"['SOFT', 'MEDIUM', 'HARD']","[1.0, 16.0, 47.0]",McLaren,0,RIC,9
+69.0,4.0,"['MEDIUM', 'HARD', 'MEDIUM', 'SOFT']","[1.0, 7.0, 36.0, 68.0]",Haas F1 Team,0,MAG,13
+69.0,4.0,"['SOFT', 'MEDIUM', 'SOFT']","[1.0, 3.0, 41.0]",Williams,0,ALB,17
+69.0,4.0,"['MEDIUM', 'SOFT']","[1.0, 40.0]",Williams,0,LAT,19
+68.0,4.0,"['SOFT', 'MEDIUM', 'SOFT']","[1.0, 14.0, 34.0]",AlphaTauri,0,TSU,16
+66.0,2.0,"['MEDIUM', 'HARD']","[1.0, 27.0]",Alfa Romeo,0,BOT,8
+44.0,3.0,"['SOFT', 'MEDIUM']","[1.0, 16.0]",Red Bull Racing,0,VER,14
+44.0,3.0,"['MEDIUM', 'HARD']","[1.0, 28.0]",Red Bull Racing,0,PER,2
+44.0,3.0,"['SOFT', 'MEDIUM', 'HARD']","[1.0, 12.0, 26.0]",Ferrari,0,SAI,1
+44.0,3.0,"['MEDIUM', 'HARD']","[1.0, 30.0]",Mercedes,0,RUS,5
+44.0,3.0,"['MEDIUM', 'HARD']","[1.0, 26.0]",Alpine,0,ALO,3
+44.0,4.0,"['SOFT', 'MEDIUM', 'SOFT']","[1.0, 4.0, 43.0]",Ferrari,0,LEC,15
+44.0,3.0,"['MEDIUM', 'HARD', 'MEDIUM']","[1.0, 13.0, 33.0]",Alpine,0,OCO,16
+44.0,3.0,"['MEDIUM', 'HARD', 'MEDIUM']","[1.0, 15.0, 34.0]",Aston Martin,0,VET,10
+44.0,3.0,"['MEDIUM', 'HARD', 'SOFT']","[1.0, 11.0, 23.0]",AlphaTauri,0,GAS,0
+44.0,3.0,"['MEDIUM', 'HARD', 'MEDIUM']","[1.0, 11.0, 27.0]",Williams,0,ALB,6
+44.0,3.0,"['MEDIUM', 'HARD']","[1.0, 27.0]",Aston Martin,0,STR,9
+44.0,3.0,"['MEDIUM', 'HARD', 'MEDIUM']","[1.0, 14.0, 30.0]",McLaren,0,NOR,17
+44.0,3.0,"['HARD', 'MEDIUM', 'SOFT']","[1.0, 19.0, 31.0]",AlphaTauri,0,TSU,0
+44.0,3.0,"['MEDIUM', 'SOFT']","[1.0, 29.0]",Alfa Romeo,0,ZHO,18
+44.0,3.0,"['MEDIUM', 'HARD', 'MEDIUM']","[1.0, 13.0, 33.0]",McLaren,0,RIC,7
+43.0,3.0,"['MEDIUM', 'HARD', 'MEDIUM']","[1.0, 12.0, 28.0]",Haas F1 Team,0,MAG,12
+43.0,3.0,"['MEDIUM', 'HARD', 'MEDIUM']","[1.0, 15.0, 31.0]",Haas F1 Team,0,MSC,19
+43.0,4.0,"['MEDIUM', 'HARD', 'SOFT']","[1.0, 16.0, 35.0]",Williams,0,LAT,11
+2.0,1.0,['SOFT'],[1.0],Alfa Romeo,0,BOT,13
+1.0,1.0,['MEDIUM'],[1.0],Mercedes,0,HAM,4
+72.0,5.0,"['SOFT', 'MEDIUM', 'HARD', 'SOFT']","[1.0, 19.0, 49.0, 57.0]",Red Bull Racing,0,VER,1
+72.0,4.0,"['MEDIUM', 'HARD', 'MEDIUM', 'SOFT']","[1.0, 32.0, 49.0, 58.0]",Mercedes,0,RUS,6
+72.0,5.0,"['SOFT', 'MEDIUM', 'HARD', 'SOFT']","[1.0, 18.0, 46.0, 57.0]",Ferrari,0,LEC,2
+72.0,4.0,"['MEDIUM', 'HARD', 'MEDIUM']","[1.0, 30.0, 49.0]",Mercedes,0,HAM,4
+72.0,5.0,"['SOFT', 'MEDIUM', 'HARD', 'MEDIUM']","[1.0, 15.0, 41.0, 57.0]",Red Bull Racing,0,PER,5
+72.0,4.0,"['SOFT', 'HARD', 'SOFT']","[1.0, 13.0, 48.0]",Alpine,0,ALO,13
+72.0,4.0,"['MEDIUM', 'HARD', 'SOFT']","[1.0, 18.0, 48.0]",McLaren,0,NOR,7
+72.0,4.0,"['SOFT', 'MEDIUM', 'HARD', 'SOFT']","[1.0, 15.0, 44.0, 58.0]",Ferrari,0,SAI,3
+72.0,4.0,"['SOFT', 'HARD', 'SOFT']","[1.0, 19.0, 57.0]",Alpine,0,OCO,12
+72.0,5.0,"['SOFT', 'MEDIUM', 'HARD', 'SOFT']","[1.0, 17.0, 39.0, 57.0]",Aston Martin,0,STR,10
+72.0,5.0,"['SOFT', 'MEDIUM', 'HARD', 'SOFT']","[1.0, 12.0, 33.0, 57.0]",AlphaTauri,0,GAS,11
+72.0,5.0,"['MEDIUM', 'HARD', 'SOFT']","[1.0, 43.0, 56.0]",Williams,0,ALB,15
+72.0,5.0,"['MEDIUM', 'HARD', 'SOFT']","[1.0, 34.0, 48.0]",Haas F1 Team,0,MSC,8
+72.0,5.0,"['SOFT', 'MEDIUM', 'HARD', 'SOFT']","[1.0, 10.0, 36.0, 49.0]",Aston Martin,0,VET,19
+72.0,5.0,"['MEDIUM', 'HARD', 'SOFT']","[1.0, 35.0, 48.0]",Haas F1 Team,0,MAG,18
+72.0,5.0,"['SOFT', 'MEDIUM', 'SOFT']","[1.0, 38.0, 56.0]",Alfa Romeo,0,ZHO,14
+72.0,6.0,"['SOFT', 'MEDIUM', 'HARD', 'SOFT']","[1.0, 12.0, 28.0, 48.0]",McLaren,0,RIC,17
+71.0,5.0,"['SOFT', 'MEDIUM', 'HARD', 'SOFT']","[1.0, 14.0, 27.0, 55.0]",Williams,0,LAT,20
+54.0,3.0,"['SOFT', 'MEDIUM']","[1.0, 35.0]",Alfa Romeo,0,BOT,16
+43.0,3.0,"['SOFT', 'MEDIUM', 'HARD']","[1.0, 14.0, 43.0]",AlphaTauri,0,TSU,9
+53.0,3.0,"['SOFT', 'MEDIUM', 'SOFT']","[1.0, 26.0, 49.0]",Red Bull Racing,0,VER,7
+53.0,4.0,"['SOFT', 'MEDIUM', 'SOFT']","[1.0, 13.0, 34.0]",Ferrari,0,LEC,1
+53.0,3.0,"['SOFT', 'HARD', 'SOFT']","[1.0, 24.0, 48.0]",Mercedes,0,RUS,2
+53.0,3.0,"['MEDIUM', 'SOFT']","[1.0, 31.0]",Ferrari,0,SAI,18
+53.0,2.0,"['MEDIUM', 'SOFT']","[1.0, 34.0]",Mercedes,0,HAM,19
+53.0,3.0,"['MEDIUM', 'HARD', 'SOFT']","[1.0, 8.0, 43.0]",Red Bull Racing,0,PER,13
+53.0,3.0,"['MEDIUM', 'SOFT']","[1.0, 36.0]",McLaren,0,NOR,3
+53.0,2.0,"['MEDIUM', 'HARD']","[1.0, 19.0]",AlphaTauri,0,GAS,5
+53.0,2.0,"['SOFT', 'MEDIUM']","[1.0, 20.0]",Williams,0,DEV,8
+53.0,2.0,"['MEDIUM', 'HARD']","[1.0, 19.0]",Alfa Romeo,0,ZHO,9
+53.0,2.0,"['SOFT', 'HARD']","[1.0, 20.0]",Alpine,0,OCO,14
+53.0,2.0,"['MEDIUM', 'SOFT']","[1.0, 34.0]",Haas F1 Team,0,MSC,17
+52.0,2.0,"['MEDIUM', 'SOFT']","[1.0, 36.0]",Alfa Romeo,0,BOT,15
+52.0,3.0,"['MEDIUM', 'HARD', 'SOFT']","[1.0, 20.0, 48.0]",AlphaTauri,0,TSU,20
+52.0,3.0,"['MEDIUM', 'HARD', 'SOFT']","[1.0, 16.0, 48.0]",Williams,0,LAT,10
+52.0,3.0,"['MEDIUM', 'HARD', 'SOFT']","[1.0, 25.0, 47.0]",Haas F1 Team,0,MAG,16
+46.0,2.0,"['MEDIUM', 'HARD']","[1.0, 20.0]",McLaren,0,RIC,4
+39.0,2.0,"['MEDIUM', 'HARD']","[1.0, 19.0]",Aston Martin,0,STR,12
+31.0,1.0,['MEDIUM'],[1.0],Alpine,0,ALO,6
+11.0,1.0,['MEDIUM'],[1.0],Aston Martin,0,VET,11
+59.0,2.0,"['INTERMEDIATE', 'MEDIUM']","[1.0, 36.0]",Red Bull Racing,1,PER,2
+59.0,2.0,"['INTERMEDIATE', 'MEDIUM']","[1.0, 35.0]",Ferrari,1,LEC,1
+59.0,2.0,"['INTERMEDIATE', 'MEDIUM']","[1.0, 36.0]",Ferrari,1,SAI,4
+59.0,2.0,"['INTERMEDIATE', 'MEDIUM']","[1.0, 37.0]",McLaren,1,NOR,6
+59.0,2.0,"['INTERMEDIATE', 'SOFT']","[1.0, 37.0]",McLaren,1,RIC,16
+59.0,2.0,"['INTERMEDIATE', 'MEDIUM']","[1.0, 36.0]",Aston Martin,1,STR,11
+59.0,3.0,"['INTERMEDIATE', 'MEDIUM', 'SOFT']","[1.0, 36.0, 41.0]",Red Bull Racing,1,VER,8
+59.0,2.0,"['INTERMEDIATE', 'MEDIUM']","[1.0, 35.0]",Aston Martin,1,VET,13
+59.0,2.0,"['INTERMEDIATE', 'MEDIUM']","[1.0, 35.0]",Mercedes,1,HAM,3
+59.0,2.0,"['INTERMEDIATE', 'MEDIUM']","[1.0, 34.0]",AlphaTauri,1,GAS,7
+59.0,2.0,"['INTERMEDIATE', 'SOFT']","[1.0, 34.0]",Alfa Romeo,1,BOT,15
+59.0,3.0,"['INTERMEDIATE', 'MEDIUM']","[1.0, 34.0]",Haas F1 Team,1,MAG,9
+58.0,3.0,"['INTERMEDIATE', 'MEDIUM', 'SOFT']","[1.0, 35.0, 42.0]",Haas F1 Team,1,MSC,12
+57.0,5.0,"['INTERMEDIATE', 'MEDIUM', 'SOFT']","[1.0, 22.0, 42.0]",Mercedes,1,RUS,0
+35.0,2.0,"['INTERMEDIATE', 'MEDIUM']","[1.0, 34.0]",AlphaTauri,1,TSU,10
+27.0,1.0,['INTERMEDIATE'],[1.0],Alpine,1,OCO,17
+25.0,1.0,['INTERMEDIATE'],[1.0],Williams,1,ALB,18
+21.0,1.0,['INTERMEDIATE'],[1.0],Alpine,1,ALO,5
+7.0,1.0,['INTERMEDIATE'],[1.0],Williams,1,LAT,19
+7.0,1.0,['INTERMEDIATE'],[1.0],Alfa Romeo,1,ZHO,14
+29.0,3.0,"['INTERMEDIATE', 'WET', 'INTERMEDIATE']","[1.0, 3.0, 8.0]",Red Bull Racing,1,VER,1
+28.0,3.0,"['INTERMEDIATE', 'WET', 'INTERMEDIATE']","[1.0, 3.0, 8.0]",Red Bull Racing,1,PER,4
+28.0,3.0,"['INTERMEDIATE', 'WET', 'INTERMEDIATE']","[1.0, 3.0, 8.0]",Ferrari,1,LEC,2
+28.0,3.0,"['INTERMEDIATE', 'WET', 'INTERMEDIATE']","[1.0, 3.0, 8.0]",Alpine,1,OCO,5
+28.0,3.0,"['INTERMEDIATE', 'WET', 'INTERMEDIATE']","[1.0, 3.0, 8.0]",Mercedes,1,HAM,6
+28.0,3.0,"['INTERMEDIATE', 'WET', 'INTERMEDIATE']","[1.0, 3.0, 6.0]",Aston Martin,1,VET,9
+28.0,4.0,"['INTERMEDIATE', 'WET', 'INTERMEDIATE']","[1.0, 3.0, 9.0]",Alpine,1,ALO,7
+28.0,3.0,"['INTERMEDIATE', 'WET', 'INTERMEDIATE']","[1.0, 3.0, 8.0]",Mercedes,1,RUS,8
+28.0,3.0,"['INTERMEDIATE', 'WET', 'INTERMEDIATE']","[1.0, 3.0, 6.0]",Williams,1,LAT,20
+28.0,3.0,"['INTERMEDIATE', 'WET', 'INTERMEDIATE']","[1.0, 3.0, 7.0]",McLaren,1,NOR,10
+28.0,3.0,"['INTERMEDIATE', 'WET', 'INTERMEDIATE']","[1.0, 3.0, 9.0]",McLaren,1,RIC,11
+28.0,4.0,"['INTERMEDIATE', 'WET', 'INTERMEDIATE']","[1.0, 3.0, 8.0]",Aston Martin,1,STR,19
+28.0,4.0,"['INTERMEDIATE', 'WET', 'INTERMEDIATE']","[1.0, 3.0, 8.0]",AlphaTauri,1,TSU,13
+28.0,3.0,"['INTERMEDIATE', 'WET', 'INTERMEDIATE']","[1.0, 3.0, 8.0]",Haas F1 Team,1,MAG,18
+28.0,3.0,"['INTERMEDIATE', 'WET', 'INTERMEDIATE']","[1.0, 3.0, 7.0]",Alfa Romeo,1,BOT,12
+28.0,4.0,"['INTERMEDIATE', 'WET', 'INTERMEDIATE']","[1.0, 3.0, 10.0]",Alfa Romeo,1,ZHO,14
+28.0,3.0,"['INTERMEDIATE', 'WET', 'INTERMEDIATE']","[1.0, 3.0, 12.0]",Haas F1 Team,1,MSC,15
+28.0,5.0,"['INTERMEDIATE', 'WET', 'INTERMEDIATE']","[1.0, 2.0, 8.0]",AlphaTauri,1,GAS,17
+1.0,1.0,['INTERMEDIATE'],[1.0],Ferrari,1,SAI,3
+1.0,1.0,['INTERMEDIATE'],[1.0],Williams,1,ALB,16

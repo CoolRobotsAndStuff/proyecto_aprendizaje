@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+nav a{
+    display: flex;
+    align-items: center;
+}
+
+.predicition{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 92vh;
+    width: 100%;
+}
+
+.card {
+    background-color: #242324;
+    padding: 40px;
+    border-radius: 20px;
+    box-shadow: 0 0 25px rgba(0, 0, 0, 0.5);
+    text-align: center;
+    max-width: 600px;
+    width: 70%;
+}
+
+.card h1{
+    margin: 0;
+    font-size: 2vw;
+    font-weight: 200;
+}
+
+form{
+    margin: 2vh;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    gap: 2vh;
+}
+form label{
+    font-size: 1.2vw;
+    display: flex;
+    align-items: center;
+    gap: 5vh;
+}
+.pos {
+    display: flex;
+}
+select, input{
+    width: 20vh;
+    font-family: inherit;
+    height: 5vh;
+}
+input{
+    width: 19vh;
+    height: 4vh;
+}
+.rain-options {
+    display: flex;
+    gap: 0;
+    width: 20vh;
+    height: 3vh;
+    align-items: center;
+}
+
+.rain-options button {
+    width: 50%;
+    background-color: rgb(110, 110, 100, 0.5);
+    border: none;
+    color: rgb(255, 255, 255, 0.5);
+    padding: 10px 5px;
+    border-radius: 0;
+    cursor: pointer;
+    transition: background 0.3s;
+    font-size: 1.2vw;
+}
+.rain-options button:first-child {
+    border-radius: 10px 0 0 10px;
+}
+.rain-options button:last-child {
+    border-radius: 0 10px 10px 0;
+}
+.rain-options button.active {
+    background-color: rgb(110, 110, 110);
+    color: white;
+}
+.submit-btn {
+    align-self: center;
+    background-color: rgb(225, 5, 0, 0.7);
+    color: #FFFFFF;
+    border: none;
+    border-radius: 10px;
+    padding: 10px 20px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background 0.3s;
+    font-size: 1.2vw;
+    margin-top: 2vh;
+}
+
+.submit-btn:hover {
+    background-color: rgb(255, 5, 0);
+}
+
+@media (max-width: 500px) {
+    .card {
+        padding: 30px 20px;
+    }
+    select, input[type="text"], .rain-options {
+        width: 60%;
+    }
+}

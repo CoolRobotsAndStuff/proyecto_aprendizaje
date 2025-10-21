@@ -1,0 +1,26 @@
+.devolution{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 92vh;
+    width: 100%;
+}
+
+.devolution-box {
+    background-color: #242324;
+    padding: 40px;
+    border-radius: 20px;
+    box-shadow: 0 0 25px rgba(0, 0, 0, 0.5);
+    text-align: center;
+    max-width: 600px;
+    width: 70%;
+}
+
+.devolution-box h1{
+    margin: 0;
+    font-size: 2vw;
+    font-weight: 200;
+}
+.devolution-box p{
+    font-size: 1.5vw;
+}

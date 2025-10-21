@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="es">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="prediction.css">
+    <title>F1 Strategy | Metodología del Aprendizaje</title>
+</head>
+<body>
+<nav>
+    <a href="index.html">
+        <img src="/img/formula 1 logo.svg" alt="F1 Logo" class="logo">
+    </a>
+    <div class="nav-links">
+        <a class="nav-link" href="prediction.html">Hacer Predicción</a>
+        <a class="nav-link" href="index.html">¿Cómo funciona?</a>
+    </div>
+</nav>
+<section class="predicition">
+    <div class="card">
+        <h1>Hacer una predicción</h1>
+        <form action="#" method="post">
+            <label>Equipo:
+                <select name="equipo" required>
+                    <option value="" disabled selected>Seleccionar</option>
+                    <option value="ferrari">Ferrari</option>
+                    <option value="mercedes">Mercedes</option>
+                    <option value="redbull">Red Bull</option>
+                    <option value="mclaren">McLaren</option>
+                </select>
+            </label>
+            <label>Circuito:
+                <select name="circuito" required>
+                    <option value="" disabled selected>Seleccionar</option>
+                    <option value="monza">Monza</option>
+                    <option value="spa">Spa-Francorchamps</option>
+                    <option value="monaco">Mónaco</option>
+                    <option value="silverstone">Silverstone</option>
+                </select>
+            </label>
+            <label>Posición de salida:
+                <input type="number" name="posicion" placeholder="Ej: 3">
+            </label>
+            <label class="pos">Posibilidad de precipitaciones:
+                <!-- <span class="rain-options"> -->
+                <!--     <button type="button" class="active">SI</button> -->
+                <!--     <button type="button">NO</button> -->
+                <!-- </span> -->
+                <input type="checkbox" name="lluvia" class="rain-options">
+            </label>
+            <input type="submit" class="submit-btn" value="Enviar">
+        </form>
+    </div>
+</section>
+<script>
+    // const buttons = document.querySelectorAll('.rain-options button');
+    // buttons.forEach(btn => {
+    //     btn.addEventListener('click', () => {
+    //         buttons.forEach(b => b.classList.remove('active'));
+    //         btn.classList.add('active');
+    //     });
+    // });
+</script>
+</body>
+</html>
