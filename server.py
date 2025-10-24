@@ -389,36 +389,52 @@ class MyRequestHandler(http.server.SimpleHTTPRequestHandler):
         content_length = int(self.headers['Content-Length'])  # Get the size of the data
         post_data = self.rfile.read(content_length)  # Read the data
         parsed_data = urllib.parse.parse_qs(post_data.decode('utf-8'))  # Parse the data
-        
+
+        for key, value in parsed_data.items():
+            if value[0] == "on":
+                parsed_data[key] = 1
+            elif value[0] == "off":
+                parsed_data[key] = 0
+            else:
+                parsed_data[key] = value[0]
+
+        if "lluvia" not in parsed_data.keys():
+            parsed_data["lluvia"] = 0
+
         self.send_response(200)
         self.send_header("Content-type", "text/html")
         self.end_headers()
 
-        command = ["Rscript", "internal.R", json.dumps(parsed_data)]
+        command = ["Rscript", "internal.R", dict2csv(parsed_data)]
+
+        result = subprocess.run(command, capture_output=True, text=True, check=False)
 
         try:
-            result = subprocess.run(command, capture_output=True, text=True, check=True)
-            
-            output = result.stdout
-            error = result.stderr
-            
-            with open("./devolution.html", "r") as file:
-                response = file.read()
-            response = response.replace("%RESULT%", output)
-            # f"""
-            # <html><body><h1>POST request received!</h1>
-            # <pre>{parsed_data}</pre>
-            # <div style='white-space: pre-wrap;'> Rscript:\n {output}</div>
-            # </body></html>"""
+            result.check_returncode()
+            print("Trying to parse this:\n", result.stdout)
+            data = json.loads(result.stdout)
 
-            if error:
-                print("Error:")
-                print(error)
+            output = f"Hacer {len(data["pit_laps"])} paradas en las vueltas "
+            for p in data["pit_laps"][0:-1]:
+                output += f"{p}, "
+            output = output[0:-2]
+            output += f" y {data["pit_laps"][-1]}."
+            
+            output += " Utilizar los neumáticos "
+            for c in data["compounds"][0: -1]:
+                output += f"{c}, "
+            output = output[0:-2]
+            output += f" y {data["compounds"][-1]}."
 
-        except subprocess.CalledProcessError as e:
-            print(f"An error occurred: {e}")
-        
-        # Respond with the received data
+            output += "\n"
+
+        except subprocess.CalledProcessError:
+            output = result.stderr
+
+        with open("./devolution.html", "r") as file:
+            response = file.read()
+        response = response.replace("%RESULT%", output)
+
         self.wfile.write(response.encode('utf-8'))
 
 class ReusableTCPServer(socketserver.TCPServer):

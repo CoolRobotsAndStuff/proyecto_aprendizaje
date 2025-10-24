@@ -5,7 +5,7 @@ data(mtcars)
 #View(mtcars)
 #model <- lm(dependent_variable ~ independent_variable1 + independent_variable2, data = your_data)
 
-data = read.csv("f1data_2021-2022.csv")
+data = read.csv("f1data_2000-2025.csv")
 
 
 data$driver_name = as.factor(data$driver_name)
