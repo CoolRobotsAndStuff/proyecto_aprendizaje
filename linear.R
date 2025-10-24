@@ -5,44 +5,24 @@ data(mtcars)
 #View(mtcars)
 #model <- lm(dependent_variable ~ independent_variable1 + independent_variable2, data = your_data)
 
-data = read.csv("f1data_2020-2021.csv")
+data = read.csv("f1data_2021-2022.csv")
 
-#lap_n,stint_n,compounds,pit_laps,team,rain,driver_name,grid_pos
 
 data$driver_name = as.factor(data$driver_name)
 data$pit_laps    = as.factor(data$pit_laps)
 data$team        = as.factor(data$team)
 data$compounds   = as.factor(data$compounds)
 
-head(data)
-
-pit_count_model  = lm(pit_count       ~ grid + driver_name + team + rain + final, data=data)
-compounds_model  = multinom(compounds ~ grid + driver_name + team + rain + final, data=data)
-pit_laps_model   = multinom(pit_laps  ~ grid + driver_name + team + rain + final, data=data)
+compounds_model  = multinom(compounds ~ grid_pos + driver_name + team + rain + final, data=data, MaxNWts =10000000)
+pit_laps_model   = multinom(pit_laps  ~ grid_pos + driver_name + team + rain + final, data=data, MaxNWts =10000000)
 
 
 print(data)
-summary(pit_count_model)
+#summary(pit_count_model)
 
-new_data = read.csv("f1data_2021-2022.csv")
-
-new_data$team        = as.factor(new_data$team)
-new_data$driver_name = as.factor(new_data$driver_name)
-
-pit_predictions       = predict(pit_count_model, new_data)
-compounds_predictions = predict(compounds_model, new_data, type = "prob")
-pit_laps_predictions  = predict(pit_laps_model,  new_data, type = "prob")
-
-results <- data.frame( new_data, 
-    predicted_pit_count = pit_predictions,
-    predicted_compounds = compounds_predictions,
-    predicted_pit_laps = pit_laps_predictions
-)
-
-results$predicted_compounds <- factor(results$predicted_compounds, labels=levels(data$compounds))
-results$predicted_pit_laps  <- factor(results$predicted_pit_laps,  labels=levels(data$pit_laps))
-
-print(results)
+#save(pit_count_model, file = "pit_count_model.RData")
+save(compounds_model, file = "compounds_model.RData")
+save(pit_laps_model , file = "pit_laps_model.RData")
 
 #results$predicted_stint_laps <- factor(results$predicted_stint_laps, labels=levels(data$predicted_stint_laps))
 
