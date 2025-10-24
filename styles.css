@@ -27,10 +27,10 @@ nav {
 .nav-links {
     display: flex;
     gap: 20px;
-    font-size: 1vw;
 }
 
 .nav-link {
+    font-size: 1vw;
     align-items: center;
     background-color: #E10500;
     padding: 10px 20px;
@@ -105,17 +105,24 @@ nav {
     background-color: rgb(225, 5, 0);
 }
 
+.make_prediction img {
+    width: 80vw;
+}
+
 .about {
-    height: 80vh;
-    margin-left: 10vh;
-    margin-right: 10vh;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    gap: 20vh;
+    align-items: center;
+    gap: 5%;
+    margin: 0 5%;
+    min-height: 80vh;
+    flex-wrap: nowrap;
 }
+
 .pending_image {
-    max-height: 600px;
+    max-height: 70vh;
+    width: 45%;
 }
 
 .about_title {
@@ -128,6 +135,52 @@ nav {
     font-size: 1.7vw;
 }
 
+@media (max-width: 768px) {
+    nav img {
+        width: 30vw;
+    }
+
+    .make_prediction{
+        height: 70vh;
+        gap: 5vh;
+    }
+    .make_prediction a {
+        padding: 10px 50px;
+    }
+
+    .about {
+        flex-direction: column;
+        align-items: center;
+        gap: 2rem;
+        min-height: auto;
+        flex-wrap: wrap;
+    }
+
+    .about_inner {
+        order: 1;
+    }
+
+    .about_title, .about_text {
+        width: 100%;
+        text-align: center;
+    }
+
+    .pending_image {
+        order: 2;
+        max-height: 70vh;
+        margin-bottom: 4vh;
+    }
+
+    .about_title {
+        font-size: 4vw;
+    }
+
+    .about_text {
+        font-size: 3.5vw;
+    }
+}
+
+
 footer {
     text-align: center;
     padding: 20px;
@@ -139,8 +192,10 @@ footer {
 footer h3 {
     margin: 5px;
     font-weight: 200;
+    font-size: 1.5vw;
 }
 
 footer p {
     margin: 2vh;
+    font-size: 1.5vw;
 }

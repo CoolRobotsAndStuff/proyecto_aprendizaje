@@ -33,6 +33,7 @@ form{
     display: flex;
     flex-direction: column;
     align-items: end;
+    justify-content: center;
     gap: 2vh;
 }
 form label{
@@ -83,12 +84,14 @@ input{
     color: white;
 }
 .submit-btn {
+    -webkit-appearance: none;
+    appearance: none;
+    height: 5vh;
     align-self: center;
     background-color: rgb(225, 5, 0, 0.7);
     color: #FFFFFF;
     border: none;
     border-radius: 10px;
-    padding: 10px 20px;
     font-weight: 600;
     cursor: pointer;
     transition: background 0.3s;
@@ -104,7 +107,7 @@ input{
     .card {
         padding: 30px 20px;
     }
-    select, input[type="text"], .rain-options {
+    select, input[type="text"] {
         width: 60%;
     }
 }
