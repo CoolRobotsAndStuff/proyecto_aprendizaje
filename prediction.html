@@ -22,12 +22,18 @@
         <h1>Hacer una predicción</h1>
         <form action="#" method="post">
             <label>Equipo:
-                <select name="equipo" required>
+                <select name="equipo" required> <!-- Use los nombres de los datos me imagine que asi iba a servir -->
                     <option value="" disabled selected>Seleccionar</option>
                     <option value="Ferrari">Ferrari</option>
                     <option value="Mercedes">Mercedes</option>
-                    <option value="Red Bull">Red Bull</option>
+                    <option value="Red Bull Racing">Red Bull Racing</option>
+                    <option value="Williams">Williams</option>
                     <option value="McLaren">McLaren</option>
+                    <option value="Racing Bulls">Racing Bulls</option>
+                    <option value="Haas F1 Team">Haas F1 Team</option>
+                    <option value="Kick Sauber">Kick Sauber</option>
+                    <option value="Kick Sauber">Kick Sauber</option>
+                    <option value="Alpine">Alpine</option>
                 </select>
             </label>
             <label>Circuito:
@@ -42,12 +48,28 @@
             <label>Corredor:
                 <select name="corredor" required>
                     <option value="" disabled selected>Seleccionar</option>
-                    <option value="LAC">LAC</option>
-                    <option value="HAM">HAM</option>
+                    <option value="VER">Max Verstappen</option>
+                    <option value="HAM">Lewis Hamilton</option>
+                    <option value="NOR">Lando Norris</option>
+                    <option value="PIA">Oscar Piastri</option>
+                    <option value="ANT">Kimi Antonelli</option>
+                    <option value="ALO">Fernando Alonso</option>
+                    <option value="BEA">Oliver Bearman</option>
+                    <option value="TSU">Yuki Tsunoda</option>
+                    <option value="RUS">George Russell</option>
+                    <option value="GAS">Pierre Gasly</option>
+                    <option value="COL">Franco Colapinto</option>
+                    <option value="OCO">Esteban Ocon</option>
+                    <option value="LAW">Liam Lawson</option>
+                    <option value="HAD">Isack Hadjar</option>
+                    <option value="ALB">Alexander Albon</option>
+                    <option value="SAI">Carlos Sainz</option>
+                    <option value="HUL">Nico Hülkenberg</option>
+                    <option value="BOR">Gabriel Bortoleto</option>
                 </select>
             </label>
             <label>Posición de salida:
-                <input type="number" name="posicion" placeholder="Ej: 3">
+                <input type="number" name="posicion" placeholder="Ej: 3" min="1" max="20">
             </label>
             <label class="pos">Posibilidad de precipitaciones:
                 <!-- <span class="rain-options"> -->
