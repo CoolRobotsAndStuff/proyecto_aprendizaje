@@ -13,6 +13,7 @@ for year in range(min_year, max_year):
             limit += 1
             # if limit > 20:
             #     break
+            location = event["Location"]
             session = fastf1.get_session(event["EventDate"].year, event["EventName"], 5, backend="fastf1")
             session.load(laps=True, telemetry=False, weather=True, messages=False)
 
@@ -31,7 +32,8 @@ for year in range(min_year, max_year):
                     "driver_name":"UNKNOWN",
                     "grid_pos": 0,
                     "pit_count": 0,
-                    "final": 0
+                    "final": 0,
+                    "location": location
                 }
                 for index, lap in driver_laps.iterrows():
                     lap_n         = lap["LapNumber"]
