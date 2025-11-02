@@ -9,21 +9,24 @@ close(con)
 
 
 new_data <- data.frame(
-    lap_n=c(20),
-    team=c(input_data$equipo),
-    rain=c(input_data$lluvia),
-    driver_name=c(input_data$corredor),
-    grid_pos=c(input_data$posicion),
-    final=(1)
+    lap_n       =c(20),
+    team        =c(input_data$equipo),
+    rain        =c(input_data$lluvia),
+    driver_name =c(input_data$corredor),
+    grid_pos    =c(input_data$posicion),
+    final       =c(1)
 )
 
-load("compounds_model.RData")
-load("pit_laps_model.RData")
+load("compound_0_lda_model.RData")
+load("compound_1_lda_model.RData")
+load("compound_2_lda_model.RData")
+load("compound_3_lda_model.RData")
 
-new_data$team        = as.factor(new_data$team)
-new_data$driver_name = as.factor(new_data$driver_name)
+load("lap_1_lda_model.RData")
+load("lap_2_lda_model.RData")
+load("lap_3_lda_model.RData")
 
-compound_probs = predict(compounds_model, type = "prob")
+compound_probs =            predict(compounds_model, type = "prob")
 compound_max_probabilities = colSums(compound_probs)
 best_compound_index        = which.max(compound_max_probabilities)
 best_compound              = colnames(compound_probs)[best_compound_index]
