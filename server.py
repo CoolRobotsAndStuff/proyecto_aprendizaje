@@ -60,6 +60,15 @@ class MyRequestHandler(http.server.SimpleHTTPRequestHandler):
                 self.end_headers()
                 with open("./prediction.html", "r") as file:
                     response = file.read()
+                
+                with open("f1data_2000-2025_locations.txt") as file:
+                    locations = file.readlines()
+                
+                loc_str = ""
+                for location in locations:
+                    loc_str += f'     <option value="{location}">{location}</option>\n'
+                response = response.replace("$CIRCUITOS$", loc_str)
+                print(response)
                 self.wfile.write(response.encode('utf-8'))
 
             case "/index.html" | "" | "/":
@@ -390,22 +399,53 @@ class MyRequestHandler(http.server.SimpleHTTPRequestHandler):
         post_data = self.rfile.read(content_length)  # Read the data
         parsed_data = urllib.parse.parse_qs(post_data.decode('utf-8'))  # Parse the data
 
-        for key, value in parsed_data.items():
-            if value[0] == "on":
-                parsed_data[key] = 1
-            elif value[0] == "off":
-                parsed_data[key] = 0
-            else:
-                parsed_data[key] = value[0]
+        print("parsed_data: ", parsed_data)
+        
+        if 'rain' not in parsed_data.keys():
+            rain = 0
+        else:
+            rain = 1 if parsed_data['rain'][0] == 'on' else 0 
+        input_data = {
+            "rain": rain,
+            "final": 1,
+            "grid_pos": parsed_data.get("grid_pos")[0],
+        }
 
-        if "lluvia" not in parsed_data.keys():
-            parsed_data["lluvia"] = 0
+        with open("f1data_2000-2025_driver_names.txt", "r") as file:
+            driver_names = file.readlines()
+
+        with open("f1data_2000-2025_locations.txt", "r") as file:
+            locations = file.readlines()
+
+        for v in driver_names:
+            input_data[v.strip()] = 0
+
+        input_data[parsed_data["corredor"][0].strip()] = 1
+
+        for v in locations:
+            input_data[v.strip()] = 0
+
+        input_data[parsed_data["circuito"][0].strip()] = 1
+
+        print(input_data)
+
+
+        # for key, value in parsed_data.items():
+        #     if value[0] == "on":
+        #         parsed_data[key] = 1
+        #     elif value[0] == "off":
+        #         parsed_data[key] = 0
+        #     else:
+        #         parsed_data[key] = value[0]
+        #
+        # if "lluvia" not in parsed_data.keys():
+        #     parsed_data["lluvia"] = 0
 
         self.send_response(200)
         self.send_header("Content-type", "text/html")
         self.end_headers()
 
-        command = ["Rscript", "internal.R", dict2csv(parsed_data)]
+        command = ["Rscript", "predict_generated.R", dict2csv(input_data)]
 
         result = subprocess.run(command, capture_output=True, text=True, check=False)
 
@@ -414,19 +454,19 @@ class MyRequestHandler(http.server.SimpleHTTPRequestHandler):
             print("Trying to parse this:\n", result.stdout)
             data = json.loads(result.stdout)
 
-            output = f"Hacer {len(data["pit_laps"])} paradas en las vueltas "
-            for p in data["pit_laps"][0:-1]:
-                output += f"{p}, "
-            output = output[0:-2]
-            output += f" y {data["pit_laps"][-1]}."
+            laps = data["laps"]
+            compounds = data["compounds"]
             
-            output += " Utilizar los neumáticos "
-            for c in data["compounds"][0: -1]:
-                output += f"{c}, "
-            output = output[0:-2]
-            output += f" y {data["compounds"][-1]}."
+            max_laps = laps.index(None) if None in laps else len(laps)
+            max_compounds = compounds.index(None) if None in compounds else len(compounds)
+            max_stops = min(max_laps, max_compounds)
 
-            output += "\n"
+            laps = laps[:max_stops]
+            compounds = compounds[:max_stops]
+
+            output = f"Empezar con el compuesto {compounds[0]}.\n"
+            for l, c in zip(laps[1:], compounds[1:]):
+                output += f"Hacer una parada en la vuelta {l} y cambiar al compuesto {c}.\n"
 
         except subprocess.CalledProcessError:
             output = result.stderr

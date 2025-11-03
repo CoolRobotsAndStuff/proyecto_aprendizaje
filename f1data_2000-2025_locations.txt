@@ -1,20 +1,20 @@
-Spielberg
-Baku
-Barcelona
-Montréal
-Marina Bay
-Monaco
-Melbourne
-Mexico City
-Budapest
-Imola
-Spa-Francorchamps
-Shanghai
-Jeddah
-Monza
-Miami Gardens
-Austin
-Silverstone
-Zandvoort
-Sakhir
-Suzuka
+budapest
+shanghai
+zandvoort
+spielberg
+jeddah
+baku
+silverstone
+imola
+austin
+suzuka
+montral
+monza
+monaco
+melbourne
+mexico_city
+barcelona
+sakhir
+marina_bay
+miami_gardens
+spa_francorchamps

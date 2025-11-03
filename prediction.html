@@ -39,10 +39,7 @@
             <label>Circuito:
                 <select name="circuito" required>
                     <option value="" disabled selected>Seleccionar</option>
-                    <option value="Monza">Monza</option>
-                    <option value="Spa">Spa-Francorchamps</option>
-                    <option value="Monaco">Mónaco</option>
-                    <option value="Silverstone">Silverstone</option>
+                    $CIRCUITOS$
                 </select>
             </label>
             <label>Corredor:
@@ -69,14 +66,14 @@
                 </select>
             </label>
             <label>Posición de salida:
-                <input type="number" name="posicion" placeholder="Ej: 3" min="1" max="20">
+                <input type="number" name="grid_pos" placeholder="Ej: 3" min="1" max="20">
             </label>
             <label class="pos">Posibilidad de precipitaciones:
                 <!-- <span class="rain-options"> -->
                 <!--     <button type="button" class="active">SI</button> -->
                 <!--     <button type="button">NO</button> -->
                 <!-- </span> -->
-                <input type="checkbox" name="lluvia" class="rain-options">
+                <input type="checkbox" name="rain" class="rain-options">
             </label>
             <input type="submit" class="submit-btn" value="ENVIAR">
         </form>
