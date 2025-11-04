@@ -1,18 +1,16 @@
 import fastf1
 
-min_year = 2019
+min_year = 2020
 max_year = 2025
 
 
 table = []
 
-limit = 0
 for year in range(min_year, max_year):
+    try:
         for index, event in fastf1.get_event_schedule(year).iterrows():
             try:
-                limit += 1
-                # if limit > 20:
-                #     break
+                print("YEAR ", year)
                 location = event["Location"]
                 session = fastf1.get_session(event["EventDate"].year, event["EventName"], 5, backend="fastf1")
                 session.load(laps=True, telemetry=False, weather=True, messages=False)
@@ -66,7 +64,10 @@ for year in range(min_year, max_year):
                     #print(row)
                     #print("-----------")
             except Exception as e:
-                print(e)
+                print("ERROR:", e)
+
+    except Exception as e:
+        print("ERROR: ", e)
 
 
 import csv
