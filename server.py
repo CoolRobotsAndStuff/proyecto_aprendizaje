@@ -4,6 +4,8 @@ import urllib.parse
 import json
 import subprocess
 
+import common
+
 import csv
 from io import StringIO
 
@@ -61,7 +63,7 @@ class MyRequestHandler(http.server.SimpleHTTPRequestHandler):
                 with open("./prediction.html", "r") as file:
                     response = file.read()
                 
-                with open("f1data_2000-2025_locations.txt") as file:
+                with open(f"{common.fname}_locations.txt") as file:
                     locations = file.readlines()
                 
                 loc_str = ""
@@ -411,10 +413,10 @@ class MyRequestHandler(http.server.SimpleHTTPRequestHandler):
             "grid_pos": parsed_data.get("grid_pos")[0],
         }
 
-        with open("f1data_2000-2025_driver_names.txt", "r") as file:
+        with open(f"{common.fname}_driver_names.txt", "r") as file:
             driver_names = file.readlines()
 
-        with open("f1data_2000-2025_locations.txt", "r") as file:
+        with open(f"{common.fname}_locations.txt", "r") as file:
             locations = file.readlines()
 
         for v in driver_names:
@@ -458,7 +460,7 @@ class MyRequestHandler(http.server.SimpleHTTPRequestHandler):
             compounds = data["compounds"]
             
             max_laps = laps.index(None) if None in laps else len(laps)
-            max_compounds = compounds.index(None) if None in compounds else len(compounds)
+            max_compounds = compounds.index(' null ') if ' null ' in compounds else len(compounds)
             max_stops = min(max_laps, max_compounds)
 
             laps = laps[:max_stops]

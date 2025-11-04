@@ -1,7 +1,7 @@
 import random
 import csv
 from io import StringIO
-fname = "f1data_2000-2025"
+from common import fname, MAX_PITS
 
 with open(fname + ".csv", "r") as file:
     data = list(csv.DictReader(file))
@@ -36,7 +36,7 @@ def parse_list(s):
             .replace(" ", "")
             .split(","))
 
-MAX_PITS = 4
+
 
 loc_dict = {}
 for l in locations:
@@ -51,8 +51,13 @@ for d in data:
     row["pit_count"] = d["pit_count"]
     row["final"]     = d["final"]
 
+
     compounds = parse_list(d["compounds"])
     laps      = parse_list(d["pit_laps"])
+
+    if not len(laps) or laps[0] == '': continue
+    if not len(compounds) or compounds[0] == '': continue
+
     laps      = [int(float(l)) for l in laps]
     
     assert(len(laps) <= MAX_PITS)
@@ -80,6 +85,21 @@ for d in data:
 
     final_data.append(row)
 
+random.shuffle(final_data)
+
+cutoff = int(len(final_data) * 0.2)
+testing_set_raw = final_data[:cutoff]
+final_data = final_data[cutoff:]
+
+testing_set = []
+for t in testing_set_raw:
+    try:
+        if int(float(t["final"])) == 1:
+            testing_set.append(t)
+    except ValueError:
+        pass
+
+
 print(loc_dict)
 
 output = StringIO()
@@ -95,11 +115,26 @@ with open(fname + "_encoded.csv", "w") as file:
 
 print("Generated " + fname + "_encoded.csv")
 
+print(loc_dict)
 
-train_r_script = """
+output = StringIO()
+csv_writer = csv.DictWriter(output, fieldnames=testing_set[0].keys())
+csv_writer.writeheader()
+for row in testing_set:
+    csv_writer.writerow(row)
+csv_string = output.getvalue()
+output.close()
+
+with open(fname + "_test_encoded.csv", "w") as file:
+    file.write(csv_string)
+
+print("Generated " + fname + "_test_encoded.csv")
+
+
+train_r_script = f"""
 library(MASS)
 
-data = read.csv("f1data_2000-2025_encoded.csv")
+data = read.csv("{fname}_encoded.csv")
 """
 
 def add_training_data():
