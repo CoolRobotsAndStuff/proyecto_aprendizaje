@@ -1,3 +1,4 @@
+from copy import deepcopy
 import common
 import io
 import subprocess
@@ -5,30 +6,39 @@ import csv
 import json
 import time
 
+def calc_orden(comps_ganador: list, comps_prediccion: list) -> float:
+    cgs_i = []
+    for cg in comps_ganador:
+        if cg in comps_prediccion and cg not in cgs_i:
+            cgs_i.append(cg)
+
+    cps_i = []
+    for cp in comps_prediccion:
+        if cp in comps_ganador and cp not in cps_i:
+            cps_i.append(cp)
+
+    order = 0
+    convs = 0
+    for ci1, c1 in enumerate(cgs_i):
+        others = deepcopy(cgs_i)
+        for ci2, c2 in enumerate(others):
+            if ci2 == ci1: continue
+            if (ci1 < ci2) == (cps_i.index(c1) < cps_i.index(c2)):  
+                order += 1
+            convs += 1
+
+    if len(cps_i) == 0 and (len(comps_ganador) != 0 or len(comps_prediccion) != 0):
+        return 0
+
+    return (order/convs) if convs != 0 else 1
+
 def calc_efficiency(comps_ganador, comps_prediccion, 
                     vueltas_ganador, vueltas_predichas, time_taken):
-    def kendall_tau(comps_ganador: list, comps_prediccion: list) -> float:
-        cgs_i = []
-        for cg in comps_ganador:
-            if cg in comps_prediccion:
-                cgs_i.append(cg)
 
-        cps_i = []
-        for cg in comps_prediccion:
-            if cg in comps_ganador:
-                cgs_i.append(cg)
 
-        n = len(cgs_i)
-        concordantes = 0
-        discordantes = 0
-        for i in range(n):
-            for j in range(n):
-                pass
-        
-        # TODO
-        return 0.5
+    o = calc_orden(comps_ganador, comps_prediccion)
 
-    o = 0.5
+    print("o: ", o)
 
     print("time taken: ", time_taken)
     t = 1 - (min(time_taken, 5*60)/(5*60))
@@ -68,6 +78,7 @@ def calc_efficiency(comps_ganador, comps_prediccion,
     efficiency =  0.2 * n + 0.3 * d + 0.2 * c + 0.2 * o + 0.1 * t
 
     return efficiency
+
 
 with open(f"{common.fname}_test_encoded.csv", "r") as file:
     test_data = file.readlines()
