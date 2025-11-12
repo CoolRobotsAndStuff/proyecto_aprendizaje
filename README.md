@@ -24,9 +24,7 @@
 
 ### Entrenar modelo y correr pruebas
 
-Seguir los pasos anteriormente descritos.
-
-Para entrenar los modelos correr:
+Este repositorio ya cuenta con los modelos entrenados. Para entrenarlos nuevamente se deben seguir los pasos anteriores y luego correr:
 
 ```bash
 Rscript train_generated.R
